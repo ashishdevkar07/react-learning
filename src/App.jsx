@@ -1,13 +1,13 @@
-import MyfirstComponent from "./practice/MyfirstComponent";
+import StudentCard from './practice/Props1'
 
 function App(){
-  return (
+  return(
     <div>
-      <h1>Hello React</h1>
-      <MyfirstComponent/>
-      <MyfirstComponent/> {/*helps in code reusability*/}
+      <StudentCard name="Ashish" age={20} course="BCA"/>
+      <StudentCard name="Rahul" age={20} course="BBA"/>
+      <StudentCard name="Priya" age={20} course="Law"/>
     </div>
   )
 }
 
-export default App 
+export default App
