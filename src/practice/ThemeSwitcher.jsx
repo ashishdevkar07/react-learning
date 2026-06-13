@@ -12,7 +12,7 @@ function ThemeSwticherMode(){
                 {isdarkMode ? "Current Theme: Dark" : "Current Theme: Light"}
             </h2>
             <button onClick={() =>setIsDarkMode(!isdarkMode)}>
-                {isdarkMode ? "Switch to :light" : "Switch to Dark"}
+                {isdarkMode ? "Switch to light" : "Switch to Dark"}
             </button>
         </div>
     )
