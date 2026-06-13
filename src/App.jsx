@@ -1,8 +1,10 @@
-import UserProfile from "./practice/UseEffect1";
+import ThemeSwticherMode from "./practice/ThemeSwitcher";
 
-function App() {
+function App(){
   return (
-    <UserProfile />
+    <div>
+      <ThemeSwticherMode />
+    </div>
   )
 }
 
