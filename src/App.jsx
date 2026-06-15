@@ -1,9 +1,10 @@
-import ThemeSwticherMode from "./practice/ThemeSwitcher";
+import Studentlist from "./practice/Lists1";
 
 function App(){
-  return (
+
+  return(
     <div>
-      <ThemeSwticherMode />
+      <Studentlist/>
     </div>
   )
 }
