@@ -1,10 +1,10 @@
-import Studentlist from "./practice/Lists1";
+import ElectronicGadgetsLists from "./practice/ProductList";
 
 function App(){
 
-  return(
+  return (
     <div>
-      <Studentlist/>
+      <ElectronicGadgetsLists />
     </div>
   )
 }
