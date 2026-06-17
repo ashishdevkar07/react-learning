@@ -1,12 +1,11 @@
-import ElectronicGadgetsLists from "./practice/ProductList";
+import ProfileForm from "./practice/ContactForm";
 
 function App(){
-
   return (
     <div>
-      <ElectronicGadgetsLists />
+      <ProfileForm/>
     </div>
   )
 }
 
-export default App
+export default App 
