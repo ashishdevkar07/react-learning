@@ -9,16 +9,20 @@ function ElectronicGadgetsLists() {
         { id: 4, name: "Computer", price: 80000, category: "Electronics" }
     ])
 
+    function deleteGadgets(id) {
+        setGadgets(gadgets.filter(gadget => gadget.id !== id))
+    }
+
     return (
         <div>
             <h2>Electronic Gadgets :</h2>
-
             <ul>
                 {gadgets.map((gadget) => (
                     <li key={gadget.id} >
                         <h3>{gadget.name}</h3>
-                        <p>{gadget.price}</p>
+                        <p> ${gadget.price}</p>
                         <p>{gadget.category}</p>
+                        <button onClick={() => deleteGadgets(gadget.id)}>Delete</button>
                     </li>
                 ))}
             </ul>
